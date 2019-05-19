@@ -44,7 +44,7 @@ init python:
 
 #You'll see this in some existing scripts as command 'play music [t1]' for example
 #For easier reference, there are comments next to it so you can go DJ on the mod :)
-define audio.t1 = "<loop 0>mod_audio/silence.ogg"  #Main theme (title)
+define audio.t1 = "<loop 0>mod_assets/audio/silence.ogg"  #Main theme (title)
 
 
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
@@ -99,7 +99,7 @@ define audio.g2 = "<loop 0>bgm/g2.ogg"
 define audio.hb = "<loop 0>bgm/heartbeat.ogg"
 
 
-define audio.silentq = "<loop 0>mod_audio/silentmod.ogg"
+define audio.silentq = "<loop 0>mod_assets/audio/silentmod.ogg"
 
 
 
@@ -123,17 +123,17 @@ image end:
     "gui/end.png"
     
     
-image bg front = "mod_images/front.png"   
-image bg library = "mod_images/library_base.png" 
-image bg res2 = "mod_images/res2.png"
-image bg clubre = "mod_images/clubre.png"
-image bg corridorre = "mod_images/corridorre.png"
-image bg title = "mod_images/tdoftlc.png"
-image bg entrance = "mod_images/entrance.png"
-image bg bench = "mod_images/bench.jpg"
-image bg park = "mod_images/park.jpg"
-image bg parkdark = "mod_images/parkdark.jpg"
-image bg housedark = "mod_images/housedark.jpg"
+image bg front = "mod_assets/images/bg/front.png"   
+image bg library = "mod_assets/images/bg/library_base.png" 
+image bg res2 = "mod_assets/images/bg/res2.png"
+image bg clubre = "mod_assets/images/bg/clubre.png"
+image bg corridorre = "mod_assets/images/bg/corridorre.png"
+image bg title = "mod_assets/images/bg/tdoftlc.png"
+image bg entrance = "mod_assets/images/bg/entrance.png"
+image bg bench = "mod_assets/images/bg/bench.jpg"
+image bg park = "mod_assets/images/bg/park.jpg"
+image bg parkdark = "mod_assets/images/bg/parkdark.jpg"
+image bg housedark = "mod_assets/images/bg/housedark.jpg"
 
     
     
