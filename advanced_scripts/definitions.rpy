@@ -100,14 +100,14 @@ define audio.hb = "<loop 0>bgm/heartbeat.ogg"
 
 
 #custom songs
-define audio.silentq = "<loop 0>mod_assets/silentmod.ogg"
-define audio.abandoned = "<loop 0>mod_assets/abandoned.mp3"
+define audio.silentq = "<loop 0>mod_assets/audio/silentmod.ogg"
+define audio.abandoned = "<loop 0>mod_assets/audio/abandoned.mp3"
 
 #sounds 
-define audio.woodwalk = "mod_assets/WoodWalking.ogg"
-define audio.walk = "mod_assets/Walking.ogg"
-define audio.page = "mod_assets/page.ogg"
-define audio.bowlin = "mod_assets/bowlin.ogg"
+define audio.woodwalk = "mod_assets/audio/WoodWalking.ogg"
+define audio.walk = "mod_assets/audio/Walking.ogg"
+define audio.page = "mod_assets/audio/page.ogg"
+define audio.bowlin = "mod_assets/audio/bowlin.ogg"
 
 
 
@@ -129,28 +129,28 @@ image end:
     "gui/end.png"
     
     
-image bg front = "mod_assets/front.png"   
-image bg library = "mod_assets/library_base.png" 
-image bg res2 = "mod_assets/res2.png"
-image bg clubre = "mod_assets/clubre.png"
-image bg corridorre = "mod_assets/corridorre.png"
-image bg title = "mod_assets/tdoftlc.png"
-image bg entrance = "mod_assets/entrance.png"
-image bg bench = "mod_assets/bench.jpg"
-image bg park = "mod_assets/park.jpg"
-image bg parkdark = "mod_assets/parkdark.jpg"
-image bg housedark = "mod_assets/housedark.jpg"
-image bg alleydark = "mod_assets/alleydark.jpg"
-image bg time = "mod_assets/time.png"
-image bg busstop = "mod_assets/busstop.jpg"
-image bg bridge = "mod_assets/bridge.jpg"
-image bg konbini = "mod_assets/konbini.jpg"
-image bg station = "mod_assets/station.jpg"
-image bg street = "mod_assets/street.jpg"
-image bg insidekon = "mod_assets/insidekon.png"
-image bg hospital = "mod_assets/hospital.jpg"
-image bg street2 = "mod_assets/street2.jpg"
-image bg bowlin = "mod_assets/bowlin.jpg"
+image bg front = "mod_assets/images/bg/front.png"   
+image bg library = "mod_assets/images/bg/library_base.png" 
+image bg res2 = "mod_assets/images/bg/res2.png"
+image bg clubre = "mod_assets/images/bg/clubre.png"
+image bg corridorre = "mod_assets/images/bg/corridorre.png"
+image bg title = "mod_assets/images/bg/tdoftlc.png"
+image bg entrance = "mod_assets/images/bg/entrance.png"
+image bg bench = "mod_assets/images/bg/bench.jpg"
+image bg park = "mod_assets/images/bg/park.jpg"
+image bg parkdark = "mod_assets/images/bg/parkdark.jpg"
+image bg housedark = "mod_assets/images/bg/housedark.jpg"
+image bg alleydark = "mod_assets/images/bg/alleydark.jpg"
+image bg time = "mod_assets/images/bg/time.png"
+image bg busstop = "mod_assets/images/bg/busstop.jpg"
+image bg bridge = "mod_assets/images/bg/bridge.jpg"
+image bg konbini = "mod_assets/images/bg/konbini.jpg"
+image bg station = "mod_assets/images/bg/station.jpg"
+image bg street = "mod_assets/images/bg/street.jpg"
+image bg insidekon = "mod_assets/images/bg/insidekon.png"
+image bg hospital = "mod_assets/images/bg/hospital.jpg"
+image bg street2 = "mod_assets/images/bg/street2.jpg"
+image bg bowlin = "mod_assets/images/bg/bowlin.jpg"
 
 
 
