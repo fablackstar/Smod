@@ -6,7 +6,7 @@
 #If you plan on adding new content, pop them over down there and mimic the appropriate lines!
 define persistent.demo = False
 define persistent.steam = False
-define config.developer = False #Change this flag to True to enable dev tools
+define config.developer = True #Change this flag to True to enable dev tools
 
 python early:
     import singleton
@@ -44,7 +44,7 @@ init python:
 
 #You'll see this in some existing scripts as command 'play music [t1]' for example
 #For easier reference, there are comments next to it so you can go DJ on the mod :)
-define audio.t1 = "<loop 0>mod_assets/silence.ogg"  #Main theme (title)
+#define audio.t1 = "<loop 0>mod_assets/audio/silence.ogg"  #Main theme (title)
 
 
 define audio.t2 = "<loop 4.499>bgm/2.ogg"   #Sayori theme
