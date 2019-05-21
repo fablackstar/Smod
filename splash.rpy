@@ -297,8 +297,8 @@ label splashscreen:
     show white
     $ persistent.ghost_menu = False
     $ splash_message = splash_message_default
-    $ config.main_menu_music = audio.t1
-    $ renpy.music.play(config.main_menu_music)
+    #$ config.main_menu_music = audio.t1
+    #$ renpy.music.play(config.main_menu_music)
     show intro with Dissolve(0.5, alpha=True)
     pause 2.5
     hide intro with Dissolve(0.5, alpha=True)
@@ -356,7 +356,7 @@ label autoload:
     jump expression persistent.autoload
 
 label before_main_menu:
-    $ config.main_menu_music = audio.t1
+    #$ config.main_menu_music = audio.t1
     return
 
 label quit:
