@@ -331,9 +331,13 @@ label smod:
     "But they don't seem to notice."
     "Infact they don't seem to do anything."
     "They don't talk, they just..."
-    "..."
+    "They just stare right through me."
+    "As if they're looking at..."
+    "...something else."
+    "Someone grabs me by the shoulder."
+    "When I turn around to see who it is-"
+    "I wake up..."
     ""
-    "When I wake up..."
     "I still feel it."
     "As if the dream didn't end."
     "It's just waiting for me."
@@ -414,12 +418,26 @@ label smod:
     "I made you wait for a long time, didn't I."
     "Thank you for waiting."
     "I had to... think it over."
+    "I think I have my answer now."
     "I..."
     ""
-    "I think I have my answer now."
+    "I really..."
+    "I really do like you..."
+    "It's just that-"
+    "...I..."
     "I'm..."
     #red text
     "I'm sorry."
+    #red bg
+    
+    "We... can't be friends anymore?"
+    "W-why not?"
+    "B-but... I-!"
+    "..."
+    ""
+    ""
+    "I..."
+    "I u-understand..."
     
     ###unstability###
 
@@ -491,16 +509,39 @@ label smod:
     "...just how longer can I stay sane?"
     
     scene black
+    stop music
+    
+    ###the truth###
+    
+    "I can't say I know what love is."
+    "That's why it's scary."
+    "Love is scary."
+    "I'm scared of love."
+    "I'm scared of the implications."
+    "Love is dangerous."
+    "..."
+    "Because..."
+    "That's the most dangerous thing you can do."
+    "You're opening yourself to be hurt."
+    "You're asking someone to accept you as are."
+    "You're taking off your mask."
+    "You're risking yourself for something that's not guaranteed."
+    "You're going to be hurt."
+    "It's scary."
+    "You'll be hurt."
+    "It..."
+    "It hurts."
+    "..."
+    ""
+    ""
+    "I'm not ready for that."
     
     
     
     
     
     
-    
-    
-    
-    
+    #choice for piano or roof
     
     
     
