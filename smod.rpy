@@ -590,12 +590,38 @@ label smod:
     #choice for piano or roof
     
     
+    ###roof###
+    
+    "..."
+    ""
+    "I suppose..."
+    ""
+    "I suppose everything had lead up to this."
+    "I guess this is just my punishment."
+    "I'm..."
+    "I have to do this."
+    "..."
+    
+    #END
     
     
+    ###piano###
+    
+    $ pause(5)
+    
+    "Even though I've done everything..."
+    "Even though everything is finished..."
+    "There's..."
+    "Just one more thing I think I'd like to try."
+    scene bg musicroom
+    with dissolve_scene_full
     
     
+    $ pause(5)
+    scene white
     
-    
+    $ pause(3)
+    "I've always wanted to learn piano."
     
     
     
