@@ -186,7 +186,7 @@ label smod:
     
     "At first, I was worried about food supply."
     "I kept leaving the money on the counters for the food I took but..."
-    "The money was would still be there the next time I'd come."
+    "The money would still be there the next time I'd come."
     "Even if I'd like this all to be some sort of big joke and I'm on TV or something..."
     "I can't exactly earn more money to pay..."
     "..."
@@ -257,10 +257,8 @@ label smod:
     ""
     "Well, now that I'm here, I might as well use this vantage point to look for people..."
     ""
-    "I've never been on the school's roof before."
-    "They didn't allow us up here because of the renovations."
-    "The lack of fences was the most obvious hazard."
-    "Not that anyone would be stupid enough to fall off, unless-"
+    "It's been a long time since I was up here..."
+    "They stopped letting students up here because of the..."
     ""
     ""
     "..."
@@ -289,7 +287,8 @@ label smod:
     "..."
     "Even I have to have some kind of weakness huh..."
     ""
-    "bfff-"
+    "..."
+    "ppfff-"
     "Ahahaha!"
     
     scene bg station
@@ -538,8 +537,55 @@ label smod:
     
     
     
+    ###
     
+    play sound woodwalk
+    scene bg class_day
+    with fade
+    "..."
+    $ pause(5)
+    play sound walk
+    scene bg corridorre
+    with fade
+    $ pause(5)
+    play sound woodwalk
+    scene bg clubre
+    with fade
+    $ pause(5)
+    play sound walk
+    scene bg rooftop
+    with fade
+    $ pause(2)
+    play music windhowl
+    $ pause(3)
     
+    "I still remember that day..."
+    scene black
+    with dissolve_scene_full
+    
+    $ pause(3)
+    
+    scene bg rooftop2
+    play music rainstorm
+    
+    "Please..."
+    "Please don't do it!"
+    "I'm sorry!"
+    "Just... please don't do it..."
+    ""
+    "..."
+    ""
+    ""
+    "...no...it won't..."
+    "But that doesn't mean -"
+    "No!!"
+    scene white
+    stop music
+    
+    $ pause(2)
+    scene bg rooftop
+    with flash
+    play music windhowl
     
     #choice for piano or roof
     
