@@ -102,6 +102,14 @@ define audio.hb = "<loop 0>bgm/heartbeat.ogg"
 #custom songs
 define audio.silentq = "<loop 0>mod_assets/audio/silentmod.ogg"
 define audio.abandoned = "<loop 0>mod_assets/audio/abandoned.mp3"
+define audio.twinpeaks = "<loop 0>mod_assets/audio/twinpeaks.mp3"
+define audio.rainstorm = "<loop 0>mod_assets/audio/rainstorm.ogg"
+define audio.daijoubu = "<loop 0>mod_assets/audio/daijoubu.ogg"
+define audio.myconfession = "<loop 0>mod_assets/audio/daijoubu.ogg"
+define audio.myfeelings = "<loop 0>mod_assets/audio/myfeelings.ogg"
+define audio.sayonara = "<loop 0>mod_assets/audio/sayonara.ogg"
+define audio.windhowl = "<loop 0>mod_assets/audio/windhowl.ogg"
+
 
 #sounds 
 define audio.woodwalk = "mod_assets/audio/WoodWalking.ogg"
@@ -129,7 +137,7 @@ image end:
     "gui/end.png"
     
     
-image bg front = "mod_assets/images/bg/front.png"   
+image bg front = "mod_assets/images/bg/front.jpg"   
 image bg library = "mod_assets/images/bg/library_base.png" 
 image bg res2 = "mod_assets/images/bg/res2.png"
 image bg clubre = "mod_assets/images/bg/clubre.png"
@@ -150,10 +158,27 @@ image bg street = "mod_assets/images/bg/street.jpg"
 image bg insidekon = "mod_assets/images/bg/insidekon.png"
 image bg hospital = "mod_assets/images/bg/hospital.jpg"
 image bg street2 = "mod_assets/images/bg/street2.jpg"
+image bg street3 = "mod_assets/images/bg/street3.jpg"
 image bg bowlin = "mod_assets/images/bg/bowlin.jpg"
-
-
-
+image bg valentine = "mod_assets/images/bg/valentine.png"
+image bg cinema = "mod_assets/images/bg/cinema.png"
+image bg shousen = "mod_assets/images/bg/shousen.png"
+image bg residencyn = "mod_assets/images/bg/residencyn.png"
+image bg mroomnight = "mod_assets/images/bg/mroomnight.png"
+image bg entrancenight = "mod_assets/images/bg/entrancenight.png"
+image bg resirain = "mod_assets/images/bg/resirain.png"
+image bg schoolback = "mod_assets/images/bg/schoolback.jpg"
+image bg carnival = "mod_assets/images/bg/carnival.jpg"
+image bg karaoke = "mod_assets/images/bg/karaoke.jpg"
+image bg hall1 = "mod_assets/images/bg/hall1.jpg"
+image bg hall2 = "mod_assets/images/bg/hall2.jpg"
+image bg hall3 = "mod_assets/images/bg/hall3.jpg"
+image bg room1 = "mod_assets/images/bg/room1.jpg"
+image bg room2 = "mod_assets/images/bg/room2.jpg"
+image bg room3 = "mod_assets/images/bg/room3.jpg"
+image bg house1 = "mod_assets/images/bg/house1.jpg"
+image bg house2 = "mod_assets/images/bg/house2.jpg"
+image bg rooftop = "mod_assets/images/bg/rooftop.jpg"
 
 
 
