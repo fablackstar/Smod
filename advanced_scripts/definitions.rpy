@@ -179,6 +179,7 @@ image bg room3 = "mod_assets/images/bg/room3.jpg"
 image bg house1 = "mod_assets/images/bg/house1.jpg"
 image bg house2 = "mod_assets/images/bg/house2.jpg"
 image bg rooftop = "mod_assets/images/bg/rooftop.jpg"
+image bg rooftop2 = "mod_assets/images/bg/rooftop2.png"
 
 
 
