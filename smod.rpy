@@ -7,18 +7,18 @@ label smod:
     "..."
     "Huh?"
     "What am I- …"
-    $ pause(2)
+    ""
     "..."
     "I seem to have been zoning out in the middle of the street."
     "I'm not really sure what I'm doing here, or what I was doing before this."
-    $ pause(2)
+    ""
     "I check myself over. I'm wearing my school uniform."
     "Was I on the way to school?"
     "..."
     "This isn't even the route I usually take..."
     "Wait... am I running late?"
     "I can't check the time, apparently I don't have my phone on me."
-    $ pause(2)
+    ""
     "...There goes my perfect attendance record."
 
     scene bg front
@@ -44,9 +44,9 @@ label smod:
     "Nobody."
     "Not even a single person."
     "Did I come on a weekend by mistake?"
-    $ pause(2)
+    ""
     "That seems like the only logical answer."
-    $ pause(2)
+    ""
     "Still..."
     "Even on weekends, there's usually somebody around..."
     "..."
@@ -59,10 +59,10 @@ label smod:
     "I'm the type of person who hates change."
     "The type that, when I go to my favorite cafe or restaurant-"
     "I'll always order the same thing."
-    $ pause(2)
+    ""
     "After all, I know what's best for me."
     "Nobody else can say otherwise."
-    $ pause(2)
+    ""
     "But I guess that's what you would call 'taking things for granted'."
     play sound walk
     scene bg entrance
@@ -85,99 +85,263 @@ label smod:
     with longflash
     $ pause(15)
     scene black
-    $ pause(2)
+    $ pause(5)
     
+    ###the confession###
+    
+    scene bg schoolback
+    with dissolve_scene_full
+    
+    "Eh??"
+    "Y-you want to go out with me?"
+    "I-"
+    ""
+    "Even if you say that..."
+    "Well... you can, but..."
+    "..."
+    ""
+    stop music fadeout 3.0
+    $ pause(3)
+    "Can I give you my answer later?"
+    
+    scene white
+    with flash
+    
+    "After all..."
+    ##"...you wouldn't like how I really am."  
+    ##  garbled
+    
+    play music abandoned
     scene bg street
     with flash
     
-    "There's been a few things I've noticed ever since I realized I was alone."
-    "Time works differently."
-    "I've tried to keep track of time..."
-    "Marking my calendar, setting reminders..."
-    "I've even tried doing the 'scratch mark on the wall' trick you usually see in prison flicks."
-    $ pause(2)
-    "But after a while..."
-    "No matter what I do..."
-    "I seem to forget about it."
-    "And all evidence of time passing, things I've done to keep track..."
-    "...they just disappear."
-    "As if they never existed."
-    $ pause(2)
-    "Time doesn't exist in this place."
-    "History can't be made."
-    
-    scene bg insidekon
-    with fade
-    
-    "Food doesn't seem to spoil."
-    "Or even run out."
-    "Like when I tried to keep track of time, some events..."
-    "...they reset."
-    "I don't know why or what triggers it, but every now and then..."
-    "Everything becomes as it once was at some point."
-    "Items get returned to their place, as if I never took them."
-    "Anything I do..."
-    "...becomes undone."
-    $ pause(2)
-    "My actions don't matter."
-    "But my memories still remain."
+    "Mom..."
+    extend " Dad..."
     
     scene bg street2
     with fade
     
-    "At first it wasn't that bad."
-    "Sure I cried for a little."
+    "My friends..."
+    
+    scene bg street3
+    with fade
+    
+    "Even the people I see everyday..."
+    "Teachers, shop owners, neighbors..."
+    ""
+    
+    scene bg alleydark
+    with dissolve_scene_full
+    
+    "'What happened to everyone?'"
+    $ pause(1)
+    
+    stop music
+    scene black
+    $ pause(3)
+    
+    ###the date###
+    
+    scene bg bowlin
+    with flash
+    $ pause(1)
+    play sound bowlin
+    $ pause(5)
+    "Aaaaaaaand stuu-rike three!"
+    "You're out!"
+    ""
+    play music myconfession
+    "..."
+    "Heh."
+    "Of course I know they're different!"
+    "I won anyway."
+    "Hmm? You want to play something a little less athletic?"
+    "Well, I can see why you'd say that."
+    "Eh?"
+    "I'm not showing off!"
+    "..."
+    "Is that why you asked me out?"
+    "Well... I guess..."
+    "Hmm?"
+    "What then?"
+    "..."
+    ""
+    "I'm..."
+    "I'm not really any of those things..."
+    ""
+    "I mean, I'm really happy that you think about me that way!"
+    "...but..."
+    "I'm..."
+    ""
+    ""
+    "..."
+    "Fine, we'll play something else."
+    "...aha."
+    "I can think of something that's more your style."
+    
+    stop music fadeout 2.0
+    
+    scene bg insidekon
+    with fade
+    
+    "At first, I was worried about food supply."
+    "I kept leaving the money on the counters for the food I took but..."
+    "The money was would still be there the next time I'd come."
+    "Even if I'd like this all to be some sort of big joke and I'm on TV or something..."
+    "I can't exactly earn more money to pay..."
+    "..."
+    "There's nobody to maintain or restock the stores anymore."
+    "The fruits and vegetables would be the first to spoil, and soon after I'd have to live on beans and rice."
+    "Thinking long term, there's canned food, but eventually I'd have to look into making my own food source."
+    "..."
+    "That's... what I thought until..."
+    "I noticed it."
+    "Food doesn't seem to spoil anymore."
+    ""
+    "Or even run out."
+    "Whenever I take something from the shelves, it would mysteriously be restocked by the next time I come."
+    "I tried to see who was doing it, and when..."
+    "...but I found that was impossible."
+    "No matter how long I waited inside the store, nobody would ever come."
+    "Not even the police."
+    "Days would pass as I kept inside the store."
+    "But eventually, I got tired of waiting."
+    "As I exit the store, and take a big breath of fresh air."
+    "There was still no signs of life outside, but atleast I didn't have to eat the terrible ready-meals again."
+    "Oh, that's right."
+    "I guess I'll pick up some groceries for home. Home made food really sounds good right now."
+    "However..."
+    "I was shocked to see that all the items had been restocked."
+    
+    
+    scene bg valentine
+    with flash
+    
+    "My opa- err... my granddad loved chess, so we played that instead of shogi in our household."
+    "I liked chess better anyway."
+    "I used to play my granddad a lot when I was a kid."
+    "I even became captain of the chess club in middle school."
+    "Although I was too embarrased to tell that to anyone before."
+    "...?"
+    "I... I just didn't want to come off as being nerdy."
+    "Oh come on, I'm not {i}that{/i} good at it."
+    "!! Well... true... But that just speaks more about you than it does me!"
+    "Well... Mr.Sakurai {i}did{/i} pester me for about a year or so to join nationals."
+    "..."
+    ""
+    "Checkmate."
+    "Looks like I won again."
+    "Err... well, I think you're getting better!"
+    "When? Well..."
+    "Maybe within a couple of years?"
+    "Aha~"
+    "..."
+    ""
+    "I guess never did get to beat granddad at chess."
+    ""
+    "One more?"
+    "C'mon, I have a feeling you'll win this time."
+    
+    play music windhowl
+    scene bg rooftop
+    with fade
+    
+    "It's no use huh..."
+    "Even my phone..."
+    "Ever since that day I haven't been able to get a signal."
+    "I thought I might get one from a high enough place but..."
+    "I just..."
+    "Deep down, I knew but..."
+    "I know that nobody is maintaining the lines."
+    "Still... I just had to try!"
+    ""
+    "Well, now that I'm here, I might as well use this vantage point to look for people..."
+    ""
+    "I've never been on the school's roof before."
+    "They didn't allow us up here because of the renovations."
+    "The lack of fences was the most obvious hazard."
+    "Not that anyone would be stupid enough to fall off, unless-"
+    ""
+    ""
     "..."
     $ pause(2)
-    "Okay, I cried a lot."
-    "But after that, it wasn't all that bad honestly."
-    "I could do things I've never tried before."
-    "Stuff I've always wanted to try, but never did for one reason or another."
-    "Back when my friends invited me to karaoke, I'd usually decline."
-    "I would never let anyone know."
-    "Never would've gone with them back then but..."
-    "After trying it alone..."
-    "I thought..."
-    $ pause(2)
-    "It would've been fun to go with them."
-    extend " Atleast once in a while."
+    stop music fadeout 2.0
     
+    scene bg karaoke
+    with flash
+    
+    "Jeez, you're really persistent, aren't you?"
+    "I can't believe you convinced me to go with this!"
+    "I don't even go out with my friends for karaoke!"
+    "Eh? Why not...?"
+    "Well... because..."
+    "..."
+    "It's too embarassing!"
+    "No, it's not that... listening to my friends is fine..."
+    "I just..."
+    "I..."
+    "...Eh?"
+    "Ehh?!"
+    "How did you guess?"
+    "What? It was that obvious?"
+    "Really? I tried so hard to hide it too..."
+    "Huh?"
+    "..."
+    "Even I have to have some kind of weakness huh..."
+    ""
+    "bfff-"
+    "Ahahaha!"
     
     scene bg station
     with fade
     
-    "I've tried leaving this town."
-    "I've always wanted to travel anyway."
-    "Unfortunately, leaving didn't work either."
-    "No matter how far and fast I went, before I know it, I'd somehow end up where I started."
-    "Although it seemed to be limited within a certain area."
-    "I've only ever tried walking but..."
-    "I get the feeling that stealing a car that I can't drive wouldn't be much better."
-    $ pause(2)
-    "Well... 'stealing'..."
-    "I guess it's too late for that now."
-    
-    scene bg hospital
-    with fade
-    
-    "I'm not sure how long it's been."
-    "For how long I've been here."
-    "All I know for sure is that there is nobody else here."
-    "I know because I've looked."
-    "I've looked everywhere. I've looked for so long..."
-    stop music fadeout 3.0
-    $ pause(2)
-    "But I know now."
-    "I'm alone."
-    
+    "Well..."
+    "That was a disaster..."
+    "Not only did I steal someone's car, I tried to drive it and crashed miserably."
+    "It couldn't have gone any worse..."
+    "..."
+    "The trains obviously aren't a choice, so I thought learning to drive a car would be useful."
+    "Not that I have anywhere to go in mind."
+    "Going overseas would be impossible alone..."
+    "And I wouldn't be able to do that for long."
+    "The reason being..."
+    "I remember learning in class that over time, the lighter hydrocarbons start evaporating out of gasoline."
+    "So I'd only be able to support that lifestyle for a few years at best."
+    "Well... I say 'steal'..."
+    ""
+    "It's not like there's anyone to steal from anymore..."
 
-    scene bg alleydark
+    ###The dream###
+    
+    scene black
     with fade
     
-    "'What happened to everyone?'"
     $ pause(2)
-    "I don't care about that anymore."
+    scene bg resirain
+    play music rainstorm
     
+    $ pause(4)
+    "..."
+    "I can't sleep."
+    "It's the same dream again."
+    "I'm in a place that I can't escape."
+    "It's a box."
+    "It's getting smaller and smaller."
+    "There's people around me."
+    "But they don't seem to notice."
+    "Infact they don't seem to do anything."
+    "They don't talk, they just..."
+    "..."
+    ""
+    "When I wake up..."
+    "I still feel it."
+    "As if the dream didn't end."
+    "It's just waiting for me."
+    "To come back." 
+    
+    stop music fadeout 2.0
+    
+    ###hallucination###
     
     scene bg library
     with flash
@@ -185,11 +349,11 @@ label smod:
     $ pause(1)
     "..."
     play sound page
-    $ pause(2)
+    ""
     "..."
     "I can't believe this was so popular back then."
     "I'm glad I didn't miss out on much."
-    $ pause(2)
+    ""
     "Ah."
     "That should be enough for a while."
     $ pause(1)
@@ -207,7 +371,7 @@ label smod:
     play sound walk
     scene bg bench
     with fade
-    $ pause(4)
+    ""
     scene black
     with fade
     $ pause(1)
@@ -217,7 +381,7 @@ label smod:
     $ pause(4)
     scene bg parkdark
     with fade
-    $ pause(2)
+    ""
     
     "Ah."
     "It's already this late?"
@@ -230,16 +394,151 @@ label smod:
     
     "Never thought I'd say this but..."
     "At this rate, I might actually finish up my back log."
-    $ pause(1)
-
     
-    scene bg bowlin
-    with flash
+    #shadowy figure
+    #sfx
+    "!"
+    "W-who's there?!"
+    "S-show yourself!"
+    "..."
+    #buildup to nothing
+    
     $ pause(1)
-    play sound bowlin
-    $ pause(5)
-    "Aaaaaaaand stuu-rike three!"
-    "You're out!"
+    scene black
+    $ pause (3)
+    
+    
+    ###the descision###
+    scene white
+
+    "I made you wait for a long time, didn't I."
+    "Thank you for waiting."
+    "I had to... think it over."
+    "I..."
+    ""
+    "I think I have my answer now."
+    "I'm..."
+    #red text
+    "I'm sorry."
+    
+    ###unstability###
+
+    scene black
+    with fade
+    play music sayonara
+    
+    ""
+    "..."
+    "..."
+    
+    scene bg hall1
+    with dissolve
+    $ pause(3)
+    
+    
+    "I'm not sure how long it's been since I've left my room."
+
+    scene bg hall2
+    with dissolve
+    $ pause(3)
+    ""
+    
+    
+    scene bg hall3
+    with dissolve
+    $ pause(3)
+    "Days? Weeks? Months?"
+    
+    
+    scene bg hall3
+    with dissolve
+    $ pause(3)
+    "I've stopped trying to keep track of time long ago."
+    
+    
+    scene bg room1
+    with dissolve
+    $ pause(3)
+    "I haven't even been eating."
+    
+    
+    scene bg room2
+    with dissolve
+    $ pause(3)
+    "I'm just constantly switching between consciousness and unconsciousness."
+    
+    
+    scene bg room3
+    with dissolve
+    $ pause(3)
+    "I'm not even sure what's real anymore."
+    
+    
+    scene bg house1
+    with dissolve
+    $ pause(3)
+    "Not that reality is worth it."
+    
+    scene bg house2
+    with dissolve
+    $ pause(3)
+    "I wonder..."
+    
+    scene bg housedark
+    with dissolve
+    stop music fadeout 3.0
+    $ pause(3)
+    "...just how longer can I stay sane?"
+    
+    scene black
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
