@@ -137,7 +137,7 @@ image end:
     "gui/end.png"
     
     
-image bg front = "mod_assets/images/bg/front.jpg"   
+image bg front = "mod_assets/images/bg/front.png"   
 image bg library = "mod_assets/images/bg/library_base.png" 
 image bg res2 = "mod_assets/images/bg/res2.png"
 image bg clubre = "mod_assets/images/bg/clubre.png"
