@@ -622,7 +622,10 @@ label smod:
     
     $ pause(3)
     "I've always wanted to learn piano."
-    
+    $ pause(1)
+    play sound end
+    scene black
+    $ pause(10)
     
     
     
